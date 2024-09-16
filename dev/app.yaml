@@ -25,7 +25,7 @@ metadata:
   name: wil-playground
   namespace: dev
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   ports:
     - port: 8888
       targetPort: 8888
